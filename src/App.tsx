@@ -1,12 +1,15 @@
 import { useState } from "react";
 import "./App.css";
 import antiviruslogo from "./assets/antivirus_logo.png";
+import bullet from "./assets/bullet.png";
 import clarifionlogo from "./assets/clarifion_logo.png";
 import productimage from "./assets/image.png";
 import reactLogo from "./assets/react.svg";
+import stars from "./assets/stars.png";
 import step3 from "./assets/step3.png";
 import step4 from "./assets/step4.png";
 import stepcheked from "./assets/stepchecked.png";
+import thumbnail from "./assets/thumbnail.png";
 import viteLogo from "/vite.svg";
 
 function App() {
@@ -119,7 +122,29 @@ function App() {
 							only <span>$14 each</span> ($84.00 total!)
 						</p>
 
-						<div className="thumbnail"></div>
+						<div className="thumbnail">
+							<img src={thumbnail} alt="" />
+							<div className="thumbnail_description">
+								<div className="thumbnail_header">
+									<p>Clarifion Air Ionizer</p>
+									<span>
+										<p className="discount">$180</p>
+										<p className="value">$84</p>
+									</span>
+								</div>
+								<img className="rating" src={stars} alt="" />
+								<div className="stock">
+									<img src={bullet} alt="" />
+									<p>12 left in Stock</p>
+								</div>
+								<div className="thumbnail_summary">
+									<p>
+										Simply plug a Clarifion into any standard outlet and replace
+										bulky, expensive air purifiers with a simple.
+									</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
