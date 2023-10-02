@@ -3,6 +3,9 @@ import "./App.css";
 import antiviruslogo from "./assets/antivirus_logo.png";
 import clarifionlogo from "./assets/clarifion_logo.png";
 import reactLogo from "./assets/react.svg";
+import step3 from "./assets/step3.png";
+import step4 from "./assets/step4.png";
+import stepcheked from "./assets/stepchecked.png";
 import viteLogo from "/vite.svg";
 
 function App() {
@@ -88,6 +91,24 @@ function App() {
 					</p>
 				</div>
 
+				<div className="checksteps">
+					<div>
+						<img src={stepcheked} alt="" />
+						<p className="standarttext">Step 1 : Cart Review</p>
+					</div>
+					<div>
+						<img src={stepcheked} alt="" />
+						<p className="standarttext">Step 2 : Checkout</p>
+					</div>
+					<div>
+						<img src={step3} alt="" />
+						<p className="boldtext">Step 3 : Special Offer</p>
+					</div>
+					<div>
+						<img src={step4} alt="" />
+						<p className="standarttext">Step 4 : Confirmation</p>
+					</div>
+				</div>
 				<div>
 					<a href="https://vitejs.dev" target="_blank">
 						<img src={viteLogo} className="logo" alt="Vite logo" />

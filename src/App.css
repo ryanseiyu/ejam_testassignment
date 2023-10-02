@@ -83,6 +83,48 @@
   }
 }
 
+.checksteps {
+  display: flex;
+  width: 1245px;
+  height: 40px;
+  margin: 0 128px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 60px;
+  
+  & div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    & p {
+      margin-left: 20px;
+    }    
+
+    .standarttext {
+      color: #000;
+      font-family: Manrope;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 110%; /* 22px */
+      text-transform: capitalize;
+    }
+
+    .boldtext {
+      color: #000;
+      font-family: Manrope;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 110%; /* 22px */
+      text-transform: capitalize;
+    }
+  }
+}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
