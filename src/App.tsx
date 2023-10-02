@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import antiviruslogo from "./assets/antivirus_logo.png";
 import clarifionlogo from "./assets/clarifion_logo.png";
+import productimage from "./assets/image.png";
 import reactLogo from "./assets/react.svg";
 import step3 from "./assets/step3.png";
 import step4 from "./assets/step4.png";
@@ -109,6 +110,19 @@ function App() {
 						<p className="standarttext">Step 4 : Confirmation</p>
 					</div>
 				</div>
+
+				<div className="product_container">
+					<img className="product_image" src={productimage} alt="" />
+					<div className="product_description">
+						<p>
+							<span>ONE TIME ONLY</span> special price for 6 extra Clarifion for
+							only <span>$14 each</span> ($84.00 total!)
+						</p>
+
+						<div className="thumbnail"></div>
+					</div>
+				</div>
+
 				<div>
 					<a href="https://vitejs.dev" target="_blank">
 						<img src={viteLogo} className="logo" alt="Vite logo" />
