@@ -81,7 +81,12 @@ function App() {
 					<img className="antivirus" src={antiviruslogo} alt="" />
 				</div>
 
-				<div className=""></div>
+				<div className="heading">
+					<p className="main_heading">Wait ! your order in progress.</p>
+					<p className="secondary_heading">
+						Lorem ipsum dolor sit amet, consectetur adipiscing
+					</p>
+				</div>
 
 				<div>
 					<a href="https://vitejs.dev" target="_blank">
