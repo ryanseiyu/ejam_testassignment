@@ -1,8 +1,44 @@
 #root {
-  max-width: 1280px;
+  width: 100vw;
+  height: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+}
+
+.main_container {
+  background-color: black;
+  width: 1500px;
+  height: 1379px;
+}
+
+.header {
+  display: flex;
+  background-color: #252F3D;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+
+  .header_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    & p {
+      font-family: Manrope;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 12px;
+      letter-spacing: 0em;
+      text-align: left;
+      text-transform: uppercase;
+      margin-left: 8px;
+    }
+  }
 }
 
 .logo {
