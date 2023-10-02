@@ -76,10 +76,12 @@ function App() {
 					</div>
 				</div>
 
-				<div className="mainHeader">
+				<div className="main_header">
 					<img className="clarifion" src={clarifionlogo} alt="" />
 					<img className="antivirus" src={antiviruslogo} alt="" />
 				</div>
+
+				<div className=""></div>
 
 				<div>
 					<a href="https://vitejs.dev" target="_blank">
