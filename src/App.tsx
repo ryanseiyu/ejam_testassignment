@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+import antiviruslogo from "./assets/antivirus_logo.png";
+import clarifionlogo from "./assets/clarifion_logo.png";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
@@ -73,6 +75,12 @@ function App() {
 						<p>100% Money Back Guarantee</p>
 					</div>
 				</div>
+
+				<div className="mainHeader">
+					<img className="clarifion" src={clarifionlogo} alt="" />
+					<img className="antivirus" src={antiviruslogo} alt="" />
+				</div>
+
 				<div>
 					<a href="https://vitejs.dev" target="_blank">
 						<img src={viteLogo} className="logo" alt="Vite logo" />
