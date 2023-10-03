@@ -172,6 +172,8 @@ function App() {
 							only <span>$14 each</span> ($84.00 total!)
 						</p>
 
+						<img id="mainimage" src={productimage} alt="" />
+
 						<div className="thumbnail">
 							<img src={thumbnail} alt="" />
 							<div className="thumbnail_description">

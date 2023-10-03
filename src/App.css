@@ -281,6 +281,10 @@
     width: 550px;
     height: 799px;
 
+    #mainimage {
+      display: none;
+    }
+
     .product_heading {
       height: 113px;
       color: #000;
