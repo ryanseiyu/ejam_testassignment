@@ -233,6 +233,8 @@ function App() {
 							<div className="verticalline"></div>
 							<img src={payments} alt="" />
 						</div>
+
+						<div className="product_reject">NO THANKS, I DON'T WANT THIS.</div>
 					</div>
 				</div>
 
