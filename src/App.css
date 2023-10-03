@@ -72,13 +72,15 @@
     text-transform: capitalize;
     margin-bottom: 24px;
   }
+
   .secondary_heading {
     color: #4D5254;
     font-family: Manrope;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 24px */
+    line-height: 24px;
+    /* 24px */
     text-transform: capitalize;
   }
 }
@@ -92,7 +94,7 @@
   align-items: center;
   flex-direction: row;
   margin-top: 60px;
-  
+
   & div {
     display: flex;
     height: 100%;
@@ -100,7 +102,7 @@
 
     & p {
       margin-left: 20px;
-    }    
+    }
 
     .standarttext {
       color: #000;
@@ -108,7 +110,8 @@
       font-size: 20px;
       font-style: normal;
       font-weight: 400;
-      line-height: 110%; /* 22px */
+      line-height: 110%;
+      /* 22px */
       text-transform: capitalize;
     }
 
@@ -118,7 +121,8 @@
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      line-height: 110%; /* 22px */
+      line-height: 110%;
+      /* 22px */
       text-transform: capitalize;
     }
   }
@@ -163,14 +167,15 @@
       text-transform: capitalize;
       margin: 0;
       text-align: start;
-      
+
       & span {
         color: #2C7EF8;
         font-family: Manrope;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
-        line-height: 140%; /* 44.8px */
+        line-height: 140%;
+        /* 44.8px */
         text-transform: capitalize;
       }
     }
@@ -206,7 +211,8 @@
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
-            line-height: 140%; /* 28px */
+            line-height: 140%;
+            /* 28px */
             text-transform: capitalize;
           }
 
@@ -233,7 +239,8 @@
               font-size: 22px;
               font-style: normal;
               font-weight: 600;
-              line-height: 140%; /* 30.8px */
+              line-height: 140%;
+              /* 30.8px */
               text-transform: capitalize;
             }
           }
@@ -264,12 +271,13 @@
             font-size: 16px;
             font-style: light;
             text-transform: none;
-            
+
           }
         }
 
         .thumbnail_summary {
           padding: 0;
+
           & p {
             height: 34px;
             color: #4D5254;
@@ -294,6 +302,8 @@
 
       .product_advantages_list {
         display: flex;
+        height: 22px;
+
         & p {
           color: #4D5254;
           font-size: 16px;
@@ -303,6 +313,47 @@
           margin-left: 12px;
         }
       }
+    }
+
+    .product_discount {
+      border-radius: 10px;
+      background: #EDF3FD;
+      display: flex;
+      height: 32px;
+      padding: 12px 16px;
+      align-items: center;
+      margin-bottom: 32px;
+
+      & img {
+        margin-right: 16px;
+      }
+
+      & p {
+        color: #000;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+
+        .styledtext_discount {
+          color: #2C7EF8;
+          font-family: Manrope;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .product_claimdiscount {
+      border-radius: 50px;
+      background: #59AE43;
+      height: 27px;
+      padding: 16px 64px;
+      color: #FFF;
+      font-family: Manrope;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 12px;
     }
   }
 
@@ -314,9 +365,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -325,6 +378,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

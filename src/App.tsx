@@ -3,6 +3,7 @@ import "./App.css";
 import antiviruslogo from "./assets/antivirus_logo.png";
 import bullet from "./assets/bullet.png";
 import clarifionlogo from "./assets/clarifion_logo.png";
+import discount from "./assets/discount.png";
 import productimage from "./assets/image.png";
 import reactLogo from "./assets/react.svg";
 import stars from "./assets/stars.png";
@@ -208,6 +209,17 @@ function App() {
 								</p>
 							</div>
 						</div>
+
+						<div className="product_discount">
+							<img src={discount} alt="" />
+							<p>
+								Save <span className="styledtext_discount">53%</span> and get{" "}
+								<span className="styledtext_discount">6 extra Clarifision</span>{" "}
+								for only <span className="styledtext_discount">$14 Each.</span>
+							</p>
+						</div>
+
+						<div className="product_claimdiscount">Yes - Claim my discount</div>
 					</div>
 				</div>
 
