@@ -305,7 +305,7 @@ function App() {
 					<div>
 						<p>Copyright (c) 2023</p>
 						<div className="footerverticalline"></div>
-						<p>Clarifionsupport@clarifion.com</p>
+						<p>clarifionsupport@clarifion.com</p>
 					</div>
 					<div>
 						<img src={lockwhite} alt="" />
