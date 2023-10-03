@@ -8,6 +8,8 @@ import productimage from "./assets/image.png";
 import lock from "./assets/lock.png";
 import payments from "./assets/payments.png";
 import reactLogo from "./assets/react.svg";
+import review from "./assets/review.png";
+import satisfaction from "./assets/satisfaction.png";
 import stars from "./assets/stars.png";
 import step3 from "./assets/step3.png";
 import step4 from "./assets/step4.png";
@@ -118,7 +120,19 @@ function App() {
 				</div>
 
 				<div className="product_container">
-					<img className="product_image" src={productimage} alt="" />
+					<div>
+						<img className="product_image" src={productimage} alt="" />
+						<div className="product_reviews">
+							<img src={review} alt="" />
+							<p>
+								“As soon as the Clarifions arrived I put one in my bedroom. This
+								was late in the afternoon. When I went to the bedroom in the
+								evening it smelled clean. When I went to bed I felt I could
+								breathe better. Wonderful.”
+							</p>
+						</div>
+					</div>
+
 					<div className="product_description">
 						<p className="product_heading">
 							<span>ONE TIME ONLY</span> special price for 6 extra Clarifion for
@@ -235,8 +249,20 @@ function App() {
 						</div>
 
 						<div className="product_reject">NO THANKS, I DON'T WANT THIS.</div>
+
+						<div className="product_satisfaction">
+							<img src={satisfaction} alt="" />
+							<p>
+								If you are not completely thrilled with your Clarifion - We have
+								a <b>30 day satisfaction guarantee</b>. Please refer to our
+								return policy at the bottom of the page for more details. Happy
+								Shopping!
+							</p>
+						</div>
 					</div>
 				</div>
+
+				<footer></footer>
 
 				<div>
 					<a href="https://vitejs.dev" target="_blank">

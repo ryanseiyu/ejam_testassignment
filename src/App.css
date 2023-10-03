@@ -130,16 +130,17 @@
 
 .product_container {
   width: 1245px;
-  height: 879px;
+  height: auto;
   flex-shrink: 0;
   margin: 0 128px;
   margin-top: 40px;
+  margin-bottom: 61px;
   border-radius: 10px;
   background: #FAFAFA;
   display: flex;
 
   .product_image {
-
+    margin-bottom: 24px;
     border-radius: 10px;
     width: 575px;
     height: 591px;
@@ -149,10 +150,33 @@
     margin-bottom: 24px;
   }
 
+  .product_reviews {
+    width: 527px;
+    height: 138px;
+    padding: 24px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background: #FFF;
+
+    & img {
+      display: flex;
+      margin-bottom: 18px;
+    }
+
+    & p {
+      text-align: start;
+      color: #4D5254;
+      font-family: Manrope;
+      font-size: 16px;
+    }
+  }
+
+
+
   .product_description {
     margin-top: 40px;
     margin-right: 40px;
-    background-color: #fff;
     width: 550px;
     height: 799px;
 
@@ -182,7 +206,6 @@
 
     .thumbnail {
       margin: 32px 0;
-      background-color: red;
       width: 550px;
       height: 135px;
       display: flex;
@@ -196,7 +219,6 @@
       .thumbnail_description {
         width: 392px;
         height: 135px;
-        background-color: green;
 
         .thumbnail_header {
           display: flex;
@@ -295,7 +317,6 @@
       display: flex;
       width: 550px;
       height: 98px;
-      background-color: blueviolet;
       flex-direction: column;
       gap: 16px;
       margin-bottom: 32px;
@@ -397,10 +418,33 @@
       font-weight: 500;
       text-decoration: underline;
       margin-top: 20px;
+      margin-bottom: 32px;
+    }
+
+    .product_satisfaction {
+      display: flex;
+      align-items: center;
+
+      & img {
+        height: 88px;
+        width: 88px;
+        margin-right: 16px;
+      }
+
+      & p {
+        margin: 0;
+        text-align: start;
+        color: #4D5254;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 400;
+      }
     }
   }
 
 }
+
+
 
 .logo {
   height: 6em;
