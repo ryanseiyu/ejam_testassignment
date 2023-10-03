@@ -194,6 +194,7 @@
     width: 320px;
     margin: 0;
     padding: 0 20px;
+    margin-bottom: 24px;
 
     & div {
       flex-direction: column;
@@ -547,10 +548,87 @@
 
   @media only screen and (max-width: 360px) {
     width: 360px;
+    margin: 0;
     flex-direction: column;
 
+    .product_main {
+      display: none;
+    }
+
+    .product_description {
+      width: 320px;
+      margin: 0 20px;
+
+      .product_heading {
+        font-size: 24px;
+        text-align: center;
+
+        & span {
+          font-size: 24px;
+        }
+      }
+
+      .thumbnail {
+        position: relative;
+
+        & img {
+          width: 80px;
+          height: 80px;
+          margin-right: 16px;
+        }
+
+        .thumbnail_description {
+          width: 224px;
+
+          .thumbnail_header {
+            & p {
+              font-size: 14px;
+            }
+
+            & span {
+              .discount {
+                font-size: 10px;
+              }
+
+              .value {
+                font-size: 14px;
+              }
+            }
+          }
+
+          .rating {
+            width: 68px;
+            height: 12px;
+            margin: 12px 0;
+          }
+
+          .stock {
+            & img {
+              width: 12px;
+              height: 12px;
+            }
+
+            & p {
+              font-size: 12px;
+            }
+          }
+
+          .thumbnail_summary {
+            position: absolute;
+            left: 0;
+            width: 326px;
+
+            & p {
+              font-size: 12px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
   }
 }
+
 
 footer {
   height: 40px;

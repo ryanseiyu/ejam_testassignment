@@ -152,7 +152,7 @@ function App() {
 				</div>
 
 				<div className="product_container">
-					<div>
+					<div className="product_main">
 						<img className="product_image" src={productimage} alt="" />
 						<div className="product_reviews">
 							<img src={review} alt="" />
