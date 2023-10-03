@@ -717,6 +717,30 @@
           align-self: center;
         }
       }
+
+      .product_reject {
+        font-size: 12px;
+        margin: 12px 0;
+      }
+
+      .product_satisfaction {
+        width: 320px;
+        height: 77px;
+        margin-top: 24px;
+        align-items: flex-start;
+
+        & img {
+          width: 48px;
+          height: 48px;
+          margin-right: 16px;
+
+
+        }
+
+        & p {
+          font-size: 12px;
+        }
+      }
     }
   }
 }
