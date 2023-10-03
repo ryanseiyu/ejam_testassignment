@@ -117,7 +117,7 @@ function App() {
 				<div className="product_container">
 					<img className="product_image" src={productimage} alt="" />
 					<div className="product_description">
-						<p>
+						<p className="product_heading">
 							<span>ONE TIME ONLY</span> special price for 6 extra Clarifion for
 							only <span>$14 each</span> ($84.00 total!)
 						</p>
@@ -143,6 +143,69 @@ function App() {
 										bulky, expensive air purifiers with a simple.
 									</p>
 								</div>
+							</div>
+						</div>
+
+						<div className="product_advantages">
+							<div className="product_advantages_list">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="22"
+									viewBox="0 0 24 22"
+									fill="none"
+								>
+									<path
+										d="M1.99976 11L8.65858 18L21.9998 4"
+										stroke="#2C7EF8"
+										stroke-width="2.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								<p>
+									Negative Ion Technology may <b>help with allergens</b>
+								</p>
+							</div>
+							<div className="product_advantages_list">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="22"
+									viewBox="0 0 24 22"
+									fill="none"
+								>
+									<path
+										d="M1.99976 11L8.65858 18L21.9998 4"
+										stroke="#2C7EF8"
+										stroke-width="2.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								<p>
+									Designed for <b>air rejuvenation</b>
+								</p>
+							</div>
+							<div className="product_advantages_list">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="22"
+									viewBox="0 0 24 22"
+									fill="none"
+								>
+									<path
+										d="M1.99976 11L8.65858 18L21.9998 4"
+										stroke="#2C7EF8"
+										stroke-width="2.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								<p>
+									<b>Perfect for every room</b> in all types of places.
+								</p>
 							</div>
 						</div>
 					</div>
