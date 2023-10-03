@@ -643,6 +643,24 @@
           }
         }
       }
+
+      .product_discount {
+        margin-bottom: 24px;
+
+        & img {
+          width: 24px;
+          height: 24px;
+        }
+
+        & p {
+          font-size: 14px;
+          text-align: start;
+
+          .styledtext_discount {
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }
