@@ -476,7 +476,7 @@
       align-items: center;
       justify-content: center;
 
-      & svg {
+      & img {
         margin-left: 19.76px;
       }
     }
@@ -659,6 +659,21 @@
           .styledtext_discount {
             font-size: 14px;
           }
+        }
+      }
+
+      .product_claimdiscount {
+        padding: 16px 64px;
+
+        & p {
+          font-size: 14px;
+          margin: 0;
+          text-wrap: nowrap;
+
+        }
+
+        & img {
+          margin-left: 16px;
         }
       }
     }
