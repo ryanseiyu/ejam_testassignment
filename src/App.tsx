@@ -5,6 +5,8 @@ import bullet from "./assets/bullet.png";
 import clarifionlogo from "./assets/clarifion_logo.png";
 import discount from "./assets/discount.png";
 import productimage from "./assets/image.png";
+import lock from "./assets/lock.png";
+import payments from "./assets/payments.png";
 import reactLogo from "./assets/react.svg";
 import stars from "./assets/stars.png";
 import step3 from "./assets/step3.png";
@@ -220,6 +222,17 @@ function App() {
 						</div>
 
 						<div className="product_claimdiscount">Yes - Claim my discount</div>
+
+						<div className="product_payment">
+							<p>Free Shipping</p>
+							<div className="verticalline"></div>
+							<div className="encryption">
+								<img src={lock} alt="" />
+								<p>Secure 256-bit SSL encryption.</p>
+							</div>
+							<div className="verticalline"></div>
+							<img src={payments} alt="" />
+						</div>
 					</div>
 				</div>
 
