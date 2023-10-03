@@ -676,6 +676,47 @@
           margin-left: 16px;
         }
       }
+
+      .product_payment {
+        width: 289px;
+        gap: 0;
+        height: auto;
+        flex-direction: column;
+        padding: 8px 16px;
+        align-items: start;
+
+        #product_payment_upper {
+          display: flex;
+          align-items: center;
+          height: 17px;
+
+          & p {
+            margin: 0;
+            margin-right: 12px;
+          }
+
+          .verticalline {
+            margin-right: 12px;
+          }
+        }
+
+        #horizontalline {
+          margin: 12px 0;
+          width: 289px;
+          height: 1px;
+          background: #CFCFCF;
+        }
+
+        #secondaryverticalline {
+          display: none;
+        }
+
+        & img {
+          height: 14px;
+          width: 180px;
+          align-self: center;
+        }
+      }
     }
   }
 }

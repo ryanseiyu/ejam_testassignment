@@ -274,13 +274,16 @@ function App() {
 						</div>
 
 						<div className="product_payment">
-							<p>Free Shipping</p>
-							<div className="verticalline"></div>
-							<div className="encryption">
-								<img src={lock} alt="" />
-								<p>Secure 256-bit SSL encryption.</p>
+							<div id="product_payment_upper">
+								<p>Free Shipping</p>
+								<div className="verticalline"></div>
+								<div className="encryption">
+									<img src={lock} alt="" />
+									<p>Secure 256-bit SSL encryption.</p>
+								</div>
 							</div>
-							<div className="verticalline"></div>
+							<div id="horizontalline"></div>
+							<div className="verticalline" id="secondaryverticalline"></div>
 							<img src={payments} alt="" />
 						</div>
 
