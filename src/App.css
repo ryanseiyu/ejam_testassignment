@@ -570,6 +570,7 @@
 
       .thumbnail {
         position: relative;
+        margin: 24px 0;
 
         & img {
           width: 80px;
@@ -622,6 +623,23 @@
               font-size: 12px;
               text-align: center;
             }
+          }
+
+
+        }
+      }
+
+      .product_advantages {
+        margin-bottom: 24px;
+
+        .product_advantages_list {
+          & svg {
+            height: 22px;
+            width: 22px;
+          }
+
+          & p {
+            font-size: 12px;
           }
         }
       }
