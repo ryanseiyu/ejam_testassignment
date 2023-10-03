@@ -127,19 +127,27 @@ function App() {
 				<div className="checksteps">
 					<div>
 						<img src={stepcheked} alt="" />
-						<p className="standarttext">Step 1 : Cart Review</p>
+						<p className="standarttext">
+							<span>Step 1 : </span>Cart Review
+						</p>
 					</div>
 					<div>
 						<img src={stepcheked} alt="" />
-						<p className="standarttext">Step 2 : Checkout</p>
+						<p className="standarttext">
+							<span>Step 2 : </span>Checkout
+						</p>
 					</div>
 					<div>
 						<img src={step3} alt="" />
-						<p className="boldtext">Step 3 : Special Offer</p>
+						<p className="boldtext">
+							<span>Step 3 : </span>Special Offer
+						</p>
 					</div>
 					<div>
 						<img src={step4} alt="" />
-						<p className="standarttext">Step 4 : Confirmation</p>
+						<p className="standarttext">
+							<span>Step 4 : </span>Confirmation
+						</p>
 					</div>
 				</div>
 
